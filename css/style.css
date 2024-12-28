@@ -1,0 +1,22 @@
+/* Import Variables and Utilities */
+@import 'variables.css';
+@import 'utilities.css';
+@import 'layout.css';
+@import 'components.css';
+
+/* Base Styles */
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 var(--spacing-md);
+}
+
+p {
+    margin: 0 0 var(--spacing-md);
+}
